@@ -25,10 +25,11 @@ console.log(newNums5);//[[ 7 ]
 
 
 
+//chaining ->more than one method apply at time
+const newNums = myNumers
+                .map((num) => num * 10 )//10,20,30,40,50,60,70,80,90,100
+                .map( (num) => num + 1)//11,21,31,41,51,61,71,81,91,101
+                .filter( (num) => num >= 40)//51,61,71,81,91,101
 
-// const newNums = myNumers
-//                 .map((num) => num * 10 )
-//                 .map( (num) => num + 1)
-//                 .filter( (num) => num >= 40)
-
-// console.log(newNums);
+console.log(newNums);
+console.log(myNumers);
