@@ -1,6 +1,7 @@
 let score="30aa";
 console.log(typeof score);
 console.log(typeof(score));
+console.log(score);
 
 //Number class  convert score into number data type
 
@@ -12,6 +13,7 @@ console.log(valueInNumber);//return NaN because score not a pure number (pure nu
 let score1="30";
 console.log(typeof score1);
 console.log(typeof(score1));
+console.log(score1);
 
 //Number class  convert score into number data type
 
@@ -58,7 +60,7 @@ console.log(valueInNumber4);//return 1
 // true->1
 
 
-
+console.log("Boolean class");
 let login=1;
 
 let booleanlogin=Boolean(login);
@@ -78,7 +80,7 @@ console.log( booleanlogin1);//return false
 //"Pushpendra"---->true;
 
 let str=33;
-
+console.log(typeof str);
 let stringstr=String(str);
 console.log(typeof  stringstr);
 console.log( stringstr);//return string

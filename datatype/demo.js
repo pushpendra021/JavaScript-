@@ -4,7 +4,7 @@ console.log("Hello ,I am pushpendra");
 //constant variable
 const accountId=12345;
 console.log(accountId);
-// not allowed accountId=2 ;
+// not allowed accountId=2 ; updation are not allowed
 console.log(accountId);
 
 

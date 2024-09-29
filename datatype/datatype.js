@@ -8,11 +8,12 @@ console.log("pushpendra");
 let names="pushpendra";//string data type
 let age=25 ;//number datatype
 let isLoggedIn =false; //boolean data type
+let nullvalue=null;
 //null standalone value it is a representation of empty value
 //undefined abhi value assign nahi huyi hai
-//symbol =>used for unique ness
+//symbol =>used for uniquecleness
 
-console.table([names,age,isLoggedIn]);
+console.table([names,age,isLoggedIn,nullvalue]);
 
 //non primitive data type
 //object
@@ -42,7 +43,7 @@ const isLogIn=false; //Boolean
 const outSideTemp=null;//object
 let useEmail; //undefine
 const id=Symbol('123');//symbol
-const anotherId=Symbol('123');//su=ymbol //both are treat is different
+const anotherId=Symbol('123');//symbol //both are treat is different
 const bigNumber=1212123456;//number
 
 //non primitive data type (call by reference)
@@ -66,3 +67,4 @@ const myFunction=function(){
 }
 
 console.log(typeof bigNumber);
+console.log(id)//Symbol(123)
