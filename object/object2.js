@@ -27,6 +27,7 @@ const regularUser={
             lastname:"Bais",
         }
     }
+   
 }
 
 //how to access value
@@ -66,7 +67,7 @@ console.log(obj4);//{ '1': 'a', '2': 'b', '3': 'a', '4': 'b' }
 const obj5=Object.assign({},obj1,obj2);
 console.log(obj5);//{ '1': 'a', '2': 'b', '3': 'a', '4': 'b' }//same output ie {} optional 
 
-//sprit operater same as array
+//spride operater same as array----------->assign()==spride same o/p
 const obj6={...obj1,...obj2};
 console.log(obj6);//{ '1': 'a', '2': 'b', '3': 'a', '4': 'b' }
 
@@ -105,5 +106,5 @@ console.log(Object.entries(tinderUser));//[ [ 'id', '123anv' ], [ 'name', 'sammy
 
 //hasOwnProperty()--->check keys exist or not
 console.log(tinderUser.hasOwnProperty('isLoggedin'));//true
-console.log(tinderUser.hasOwnProperty("123anv"));
+console.log(tinderUser.hasOwnProperty('123anv'));//false------>its values
 

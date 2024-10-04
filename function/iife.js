@@ -4,7 +4,7 @@
 /*
 Global scope ke polution se problem hoti hai kaai baar to us gloabl scope ke jo variable
 hai or jo variable declare hai usko haatane ke liye IIFE kaa use kaarte hai
-
+IIFE (Immediately Invoked Function Expression) i
 */
 
 

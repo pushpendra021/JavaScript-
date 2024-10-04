@@ -1,9 +1,18 @@
 //reduce method------>using arrow function
+/*
+The reduce() method returns a single value.
+
+The reduce() method does not execute the function for empty array elements.
+
+The reduce() method does not change the original array.
+
+
+*/
 const myNumber=[1,2,3];
 
 const mynTotal=myNumber.reduce((accumulator,currentValue)=>
-     accumulator+currentValue,0//initial me accumulator me 0 strore hoga and currentvalue me 1-->then accumulator=0+1,and curr=2-->then accu=1+2 and curr=3
-)
+     accumulator+currentValue,0)//initial me accumulator me 0 strore hoga and currentvalue me 1-->then accumulator=0+1,and curr=2-->then accu=1+2 and curr=3
+
 console.log(mynTotal);
 
 const shoppingCart=[
@@ -29,3 +38,4 @@ const shoppingCart=[
  //                                     |                  |
 const total=shoppingCart.reduce((acc,item)=>acc+item.price,0)
 console.log(total);
+console.log(shoppingCart[1].price);
